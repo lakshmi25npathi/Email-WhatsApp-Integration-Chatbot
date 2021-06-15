@@ -24,7 +24,7 @@ class ActionEmail(Action):
         msg=EmailMessage()
         msg['Subject']="Monthly expenses"
         msg['From']=User_name
-        msg['To']='lakshmipathiae021@gmail.com'
+        msg['To']='gmail_id'
         msg.set_content('Hi, I am attaching the your Monthly expenses, please have a look at it.')
 
         with open('monthly_expenditure.png','rb') as f:
